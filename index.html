@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/index.css">
+        <style></style>
+        <title>Text AI 3.0</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap" rel="stylesheet">
+        <link rel="icon" href="favicon" type="image/x-icon">
+    </head>
+    <body>
+        <div class="background_img"></div>
+        <div id="particles-js"></div>
+    <header>
+        <h1>text.AI</h1>
+        <h2>Intelligent App for text processing</h2>
+    </header>
+    <main class="main">
+        <div class="button_block">
+            <button class="button_original" id="open" type="button">Original</button>
+            <div id="image" class="image-container" >
+                <div id="opacity" ></div>
+                <div id="result" class="opacity"></div>
+                </div>  
+            <button class="button_check" type="button" id="send">Check</button>
+        </div>
+        <div class="input_block">
+            <div>
+                <textarea  class="original_text" id="info" placeholder="Original text..."></textarea>
+            </div>
+            <div>
+                <textarea class="input_text" id="value" placeholder="Input text...textarea 2 rows"></textarea>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+           <a href="https://devincubator.by"><img class="svg_dev" src="src/dev.svg"></a>
+           <a href="https://devincubator.by"><img class="svg_incubator" src="src/incubator.svg"></a>
+        </div>
+        <span><p class="text_nickname">Sviridenko A. and Tereschenko N., 2022</p></span>
+        <ul class="hr">
+            <li>
+                <a href="https://github.com/AlexandrSviridenkoTMS09/Incubator-base"><img class="svg_git" src="src/git.svg"></a>
+            </li>
+            <li>
+                <a href="https://vk.com"><img class="svg_vk" src="src/vk.svg"></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com"><img class="svg_facebook" src="src/facebook.svg"></a>
+            </li>
+        </ul>
+    </footer>
+        <script src="src/particles.js"></script>
+        <script src="src/app.js"></script>
+        <script type="text/javascript"></script>
+        <script src="src/serverRequest.js"></script>
+    </body>
+</html>
+
